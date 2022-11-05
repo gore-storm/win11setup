@@ -28,6 +28,9 @@ winget install -e --id JAMSoftware.TreeSize.Free;
 winget install -e --id Microsoft.PowerShell;
 winget install -e --id VMware.WorkstationPlayer;
 winget install -e --id JAMSoftware.TreeSize.Free;
+winget install -e --id Git.Git;
+
+
 
 #Remove apps
 winget uninstall  -e --id Microsoft.Teams
