@@ -6,29 +6,29 @@
 #Add msstore as trusted resource
 
 #Install apps
-winget install -e --id Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements;
-#winget install -e --id qBittorrent.qBittorrent --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.PowerToys --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Logitech.GHUB --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Google.Drive --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Nvidia.GeForceExperience --accept-package-agreements --accept-source-agreements;
-#winget install -e --id EpicGames.EpicGamesLauncher --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Samsung.DeX --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.DotNet.DesktopRuntime.6 --accept-package-agreements --accept-source-agreements;
-#winget install -e --id ShareX.ShareX --accept-package-agreements --accept-source-agreements;
-#winget install -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements;
-#winget install -e --id CodecGuide.K-LiteCodecPack.Basic --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.VC++2013Redist-x64 --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.VC++2010Redist-x64 --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.VC++2015-2022Redist-x64 --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Valve.Steam --accept-package-agreements --accept-source-agreements;
-#winget install -e --id TeamViewer.TeamViewer --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Corsair.iCUE.4 --accept-package-agreements --accept-source-agreements;
-#winget install -e --id JAMSoftware.TreeSize.Free --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Microsoft.PowerShell --accept-package-agreements --accept-source-agreements;
-#winget install -e --id VMware.WorkstationPlayer --accept-package-agreements --accept-source-agreements;
-#winget install -e --id JAMSoftware.TreeSize.Free --accept-package-agreements --accept-source-agreements;
-#winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements;
+winget install -e --id Microsoft.VisualStudioCode -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id qBittorrent.qBittorrent -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.PowerToys -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Logitech.GHUB -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Google.Drive -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Nvidia.GeForceExperience -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id EpicGames.EpicGamesLauncher -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Samsung.DeX -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.DotNet.DesktopRuntime.6 -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id ShareX.ShareX -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id 7zip.7zip -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id CodecGuide.K-LiteCodecPack.Basic -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.VC++2013Redist-x64 -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.VC++2010Redist-x64 -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.VC++2015-2022Redist-x64 -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Valve.Steam -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id TeamViewer.TeamViewer -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Corsair.iCUE.4 -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id JAMSoftware.TreeSize.Free -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Microsoft.PowerShell -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id VMware.WorkstationPlayer -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id JAMSoftware.TreeSize.Free -h --accept-package-agreements --accept-source-agreements;
+#winget install -e --id Git.Git --accept-package-agreements -h --accept-source-agreements;
 
 #Remove apps
 winget uninstall  -e --id Microsoft.Teams
